@@ -5,13 +5,14 @@ import Header from "./components/header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"> </header>
+    // <div className="App">
+    <>
       <Header />
       <Router />
 
       <Footer />
-    </div>
+    </>
+    /* </div> */
   );
 }
 
